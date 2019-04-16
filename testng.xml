@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch Testing Suite">
+  <test  name="Batching Testing">
+    <classes>
+      <class name="com.handling.BatchTesting.TC01_Verify_LogoTest"/>
+      <class name="com.handling.BatchTesting.TC02_Verify_TitleTest"/>
+      <class name="com.handling.BatchTesting.TC03_Verify_LoginTest"/>
+    </classes>
+  </test> <!-- Batching Testing -->
+</suite> <!-- Batch Testing Suite -->

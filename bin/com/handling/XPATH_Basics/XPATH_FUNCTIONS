@@ -1,0 +1,29 @@
+XPATH FUNCTIONS (OR) BASICS
+===========================
+    Generally we have around two types of xpaths like Absolute and Relative Xapth's
+  
+ 1. Absolute Xpath
+      
+        It is Complete html path
+        
+     Example: /html/body/input
+     
+ 2. Relative Xpath
+ 
+           It is Creating our own xapth
+           
+           Example: //input[@id='abc']
+           
+ ======================================
+ 
+1. Using Tagname  
+     //input[@id='abc']
+
+2. Using Parent Reference  
+    //div//input[@id='abc']
+    
+    //div[@id='pro']//input[@id='password']
+
+3.
+        
+   

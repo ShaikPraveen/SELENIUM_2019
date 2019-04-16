@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Batch Testing Suite" duration-ms="116521" started-at="2019-02-22T15:41:54Z" finished-at="2019-02-22T15:43:51Z">
+    <groups>
+    </groups>
+    <test name="Batching Testing" duration-ms="116521" started-at="2019-02-22T15:41:54Z" finished-at="2019-02-22T15:43:51Z">
+      <class name="com.handling.BatchTesting.TC01_Verify_LogoTest">
+        <test-method status="PASS" signature="LogoTest()[pri:0, instance:com.handling.BatchTesting.TC01_Verify_LogoTest@4b1c1ea0]" name="LogoTest" duration-ms="39268" started-at="2019-02-22T15:41:54Z" finished-at="2019-02-22T15:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoTest -->
+      </class> <!-- com.handling.BatchTesting.TC01_Verify_LogoTest -->
+      <class name="com.handling.BatchTesting.TC03_Verify_LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.handling.BatchTesting.TC03_Verify_LoginTest@2833cc44]" name="loginTest" duration-ms="43052" started-at="2019-02-22T15:43:08Z" finished-at="2019-02-22T15:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.handling.BatchTesting.TC03_Verify_LoginTest -->
+      <class name="com.handling.BatchTesting.TC02_Verify_TitleTest">
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.handling.BatchTesting.TC02_Verify_TitleTest@3712b94]" name="titleTest" duration-ms="34139" started-at="2019-02-22T15:42:34Z" finished-at="2019-02-22T15:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+      </class> <!-- com.handling.BatchTesting.TC02_Verify_TitleTest -->
+    </test> <!-- Batching Testing -->
+  </suite> <!-- Batch Testing Suite -->
+</testng-results>
